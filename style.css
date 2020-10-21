@@ -1,0 +1,32 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgrey;
+    height: 500px;
+    width: 200px;
+    border-radius: 50px;
+    margin: 50px auto;
+}
+.circle {
+    height: 120px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 50%;    
+}
+#red {
+    background-color: red;
+    box-shadow: 0 0 20px 5px red;
+    opacity: 0.2;
+}
+#yellow {
+    background-color: yellow;
+    box-shadow: 0 0 20px 5px yellow;
+    opacity: 0.2;
+}
+#green {
+    background-color: green;
+    box-shadow: 0 0 20px 5px green;
+    opacity: 0.2;
+}
