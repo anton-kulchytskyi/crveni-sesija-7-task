@@ -29,7 +29,19 @@ function myFun () {
         red.style.opacity=.2;
 		yellow.style.opacity=.2;
 		green.style.opacity=1;
+	},12500);
+
+	setTimeout(function () {
+        red.style.opacity=.2;
+		yellow.style.opacity=.2;
+		green.style.opacity=.2;
 	},13000);
+
+	setTimeout(function () {
+        red.style.opacity=.2;
+		yellow.style.opacity=.2;
+		green.style.opacity=1;
+	},13500);
 
 	setTimeout(function () {
         red.style.opacity=.2;
@@ -41,36 +53,24 @@ function myFun () {
         red.style.opacity=.2;
 		yellow.style.opacity=.2;
 		green.style.opacity=1;
-	},15000);
-
-	setTimeout(function () {
-        red.style.opacity=.2;
-		yellow.style.opacity=.2;
-		green.style.opacity=.2;
-	},16000);
-
-	setTimeout(function () {
-        red.style.opacity=.2;
-		yellow.style.opacity=.2;
-		green.style.opacity=1;
-	},17000);
+	},14500);
 
 	setTimeout(function () {
         red.style.opacity=.2;
 		yellow.style.opacity=1;
 		green.style.opacity=.2;
-	},18000);
+	},15000);
 
     setTimeout(function () {
 		red.style.opacity=1;
 		yellow.style.opacity=.2;
 		green.style.opacity=.2;
-    },20000);
+    },17000);
 }
 
-var timer = setInterval(function () {
+setInterval(function () {
     myFun()
-},21000);
+},18000);
 
 // Task 2 - Napojnica
 
